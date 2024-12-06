@@ -1,0 +1,556 @@
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-11-04 10:23:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "Digital1234$",
+    "request_id" : "4772518254"
+  }] on 2024-11-04 10:23:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"Invalid Password. Kindly try again with the valid details!","request_id":"4772518254"}] on 2024-11-04 10:23:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in failed [Sign in Failed] on 2024-11-04 10:23:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-11-04 10:24:05
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "3015604136"
+  }] on 2024-11-04 10:24:05
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success","bearer_token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM","user_id":1,"user_master_id":1,"parent_id":1,"user_name":"admin","user_status":"Y","request_id":"3015604136"}] on 2024-11-04 10:24:05
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in success on 2024-11-04 10:24:05
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 10:24:05
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 10:24:07
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 10:24:07
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 10:24:07
+http://192.168.29.244/messenger_hub/approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin access the page on 2024-11-04 10:24:10
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin Preview on 2024-11-04 10:24:11
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  Execute the service [{
+            "user_id" : "1"
+          },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM] on 2024-11-04 10:24:11
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":5,"response_msg":"Success","report":[{"usr_credit_id":5,"user_id":2,"parent_id":1,"pricing_slot_id":4,"expiry_date":"2025-10-18T04:08:47.000Z","valdity_period":"12","raise_credits":1000000,"amount":767000,"usr_credit_comments":"Testing","usr_credit_status":"U","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-10-18T04:08:47.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":500000,"price_to":1000000,"price_per_message":"0.65","rights_name":"WHATSAPP"},{"usr_credit_id":4,"user_id":2,"parent_id":1,"pricing_slot_id":12,"expiry_date":"2025-10-15T11:23:55.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:12, paymentID:pay_P9IedkXE7B33mI, userEmail","usr_credit_entry_date":"2024-10-15T11:23:55.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"RCS"},{"usr_credit_id":3,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-10-15T11:19:54.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_P9IMIJNOxU7bm7, userEmail","usr_credit_entry_date":"2024-10-15T11:19:54.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":2,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-07-24T05:59:51.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"Testing","usr_credit_status":"A","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-07-24T05:59:51.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":1,"user_id":5,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-03-24T23:41:57.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing ","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_NqT6QKLr5yZBxF, userEmail","usr_credit_entry_date":"2024-03-24T23:41:57.000Z","user_name":null,"parent_name":"admin","user_type":null,"price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"}]}] on 2024-11-04 10:24:11
+http://192.168.29.244/messenger_hub/message_credit : IP Address : 192.168.29.244 ==> Message Credit Page : User : admin access the page on 2024-11-04 10:24:14
+http://192.168.29.244/messenger_hub/approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin access the page on 2024-11-04 10:24:18
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin Preview on 2024-11-04 10:24:19
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  Execute the service [{
+            "user_id" : "1"
+          },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM] on 2024-11-04 10:24:19
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":5,"response_msg":"Success","report":[{"usr_credit_id":5,"user_id":2,"parent_id":1,"pricing_slot_id":4,"expiry_date":"2025-10-18T04:08:47.000Z","valdity_period":"12","raise_credits":1000000,"amount":767000,"usr_credit_comments":"Testing","usr_credit_status":"U","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-10-18T04:08:47.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":500000,"price_to":1000000,"price_per_message":"0.65","rights_name":"WHATSAPP"},{"usr_credit_id":4,"user_id":2,"parent_id":1,"pricing_slot_id":12,"expiry_date":"2025-10-15T11:23:55.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:12, paymentID:pay_P9IedkXE7B33mI, userEmail","usr_credit_entry_date":"2024-10-15T11:23:55.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"RCS"},{"usr_credit_id":3,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-10-15T11:19:54.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_P9IMIJNOxU7bm7, userEmail","usr_credit_entry_date":"2024-10-15T11:19:54.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":2,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-07-24T05:59:51.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"Testing","usr_credit_status":"A","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-07-24T05:59:51.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":1,"user_id":5,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-03-24T23:41:57.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing ","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_NqT6QKLr5yZBxF, userEmail","usr_credit_entry_date":"2024-03-24T23:41:57.000Z","user_name":null,"parent_name":"admin","user_type":null,"price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"}]}] on 2024-11-04 10:24:19
+http://192.168.29.244/messenger_hub/message_credit : IP Address : 192.168.29.244 ==> Message Credit Page : User : admin access the page on 2024-11-04 10:24:37
+http://192.168.29.244/messenger_hub/approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin access the page on 2024-11-04 10:24:43
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin Preview on 2024-11-04 10:24:43
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  Execute the service [{
+            "user_id" : "1"
+          },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM] on 2024-11-04 10:24:43
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":5,"response_msg":"Success","report":[{"usr_credit_id":5,"user_id":2,"parent_id":1,"pricing_slot_id":4,"expiry_date":"2025-10-18T04:08:47.000Z","valdity_period":"12","raise_credits":1000000,"amount":767000,"usr_credit_comments":"Testing","usr_credit_status":"U","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-10-18T04:08:47.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":500000,"price_to":1000000,"price_per_message":"0.65","rights_name":"WHATSAPP"},{"usr_credit_id":4,"user_id":2,"parent_id":1,"pricing_slot_id":12,"expiry_date":"2025-10-15T11:23:55.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:12, paymentID:pay_P9IedkXE7B33mI, userEmail","usr_credit_entry_date":"2024-10-15T11:23:55.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"RCS"},{"usr_credit_id":3,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-10-15T11:19:54.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_P9IMIJNOxU7bm7, userEmail","usr_credit_entry_date":"2024-10-15T11:19:54.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":2,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-07-24T05:59:51.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"Testing","usr_credit_status":"A","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-07-24T05:59:51.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":1,"user_id":5,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-03-24T23:41:57.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing ","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_NqT6QKLr5yZBxF, userEmail","usr_credit_entry_date":"2024-03-24T23:41:57.000Z","user_name":null,"parent_name":"admin","user_type":null,"price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"}]}] on 2024-11-04 10:24:43
+http://192.168.29.244/messenger_hub/message_credit : IP Address : 192.168.29.244 ==> Message Credit Page : User : admin access the page on 2024-11-04 10:24:48
+http://192.168.29.244/messenger_hub/approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin access the page on 2024-11-04 10:24:50
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin Preview on 2024-11-04 10:24:51
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  Execute the service [{
+            "user_id" : "1"
+          },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM] on 2024-11-04 10:24:51
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":5,"response_msg":"Success","report":[{"usr_credit_id":5,"user_id":2,"parent_id":1,"pricing_slot_id":4,"expiry_date":"2025-10-18T04:08:47.000Z","valdity_period":"12","raise_credits":1000000,"amount":767000,"usr_credit_comments":"Testing","usr_credit_status":"U","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-10-18T04:08:47.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":500000,"price_to":1000000,"price_per_message":"0.65","rights_name":"WHATSAPP"},{"usr_credit_id":4,"user_id":2,"parent_id":1,"pricing_slot_id":12,"expiry_date":"2025-10-15T11:23:55.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:12, paymentID:pay_P9IedkXE7B33mI, userEmail","usr_credit_entry_date":"2024-10-15T11:23:55.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"RCS"},{"usr_credit_id":3,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-10-15T11:19:54.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_P9IMIJNOxU7bm7, userEmail","usr_credit_entry_date":"2024-10-15T11:19:54.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":2,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-07-24T05:59:51.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"Testing","usr_credit_status":"A","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-07-24T05:59:51.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":1,"user_id":5,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-03-24T23:41:57.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing ","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_NqT6QKLr5yZBxF, userEmail","usr_credit_entry_date":"2024-03-24T23:41:57.000Z","user_name":null,"parent_name":"admin","user_type":null,"price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"}]}] on 2024-11-04 10:24:51
+http://192.168.29.244/messenger_hub/message_credit_list : IP Address : 192.168.29.244 ==> Message Credit List Page : User : admin access the page on 2024-11-04 10:24:52
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=message_credit_list : IP Address : 192.168.29.244 ==> Message Credit List Page : User : admin Preview on 2024-11-04 10:24:53
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=message_credit_list : IP Address : 192.168.29.244 ==> Message Credit List Page :  Execute the service [{
+            "user_id" : "1"
+          },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM] on 2024-11-04 10:24:53
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=message_credit_list : IP Address : 192.168.29.244 ==> Message Credit List Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":24,"response_msg":"Success","report":[{"message_credit_log_id":24,"parntid":1,"rights_name":"RCS","parntname":"admin","user_type":"User","usrid":2,"usrname":"user_1","provided_message_count":99999,"message_comments":"99999 Messages allocated to user_1 by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-24T11:41:25.000Z"},{"message_credit_log_id":23,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":7,"usrname":"visit","provided_message_count":5,"message_comments":"5 Messages allocated to visit by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-24T11:41:03.000Z"},{"message_credit_log_id":22,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":7,"usrname":"visit","provided_message_count":10,"message_comments":"10 Messages allocated to visit by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-24T11:39:28.000Z"},{"message_credit_log_id":21,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":2,"usrname":"user_1","provided_message_count":1000000,"message_comments":"1000000 Messages allocated to user_1 by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-21T04:51:15.000Z"},{"message_credit_log_id":20,"parntid":1,"rights_name":"RCS","parntname":"admin","user_type":"User","usrid":9,"usrname":"testing_usser","provided_message_count":50,"message_comments":"50 Messages allocated to testing_usser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T11:09:26.000Z"},{"message_credit_log_id":19,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":9,"usrname":"testing_usser","provided_message_count":30,"message_comments":"30 Messages allocated to testing_usser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T10:30:25.000Z"},{"message_credit_log_id":18,"parntid":1,"rights_name":"RCS","parntname":"admin","user_type":"User","usrid":9,"usrname":"testing_usser","provided_message_count":20,"message_comments":"20 Messages allocated to testing_usser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T10:15:41.000Z"},{"message_credit_log_id":17,"parntid":1,"rights_name":"RCS","parntname":"admin","user_type":"Admin","usrid":1,"usrname":"admin","provided_message_count":2,"message_comments":"2 Messages allocated to admin by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T10:14:58.000Z"},{"message_credit_log_id":16,"parntid":1,"rights_name":"GSM SMS","parntname":"admin","user_type":"User","usrid":9,"usrname":"testing_usser","provided_message_count":20,"message_comments":"20 Messages allocated to testing_usser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T10:14:29.000Z"},{"message_credit_log_id":15,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":9,"usrname":"testing_usser","provided_message_count":20,"message_comments":"20 Messages allocated to testing_usser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T10:13:26.000Z"},{"message_credit_log_id":14,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":9,"usrname":"testing_usser","provided_message_count":15,"message_comments":"15 Messages allocated to testing_usser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-18T10:12:05.000Z"},{"message_credit_log_id":13,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":2,"usrname":"user_1","provided_message_count":99999,"message_comments":"99999 Messages allocated to user_1 by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-10-15T11:22:46.000Z"},{"message_credit_log_id":12,"parntid":1,"rights_name":"OBD CALL SIP","parntname":"admin","user_type":"SMS OBD User","usrid":8,"usrname":"anaya","provided_message_count":1000000,"message_comments":"1000000 Messages allocated to anaya by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-08-03T04:49:31.000Z"},{"message_credit_log_id":11,"parntid":1,"rights_name":"OBD CALL SIP","parntname":"admin","user_type":"User","usrid":7,"usrname":"visit","provided_message_count":500,"message_comments":"500 Messages allocated to visit by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-08-02T05:39:36.000Z"},{"message_credit_log_id":10,"parntid":1,"rights_name":"OBD CALL SIP","parntname":"admin","user_type":"SMS OBD User","usrid":6,"usrname":"demo","provided_message_count":500,"message_comments":"500 Messages allocated to hello by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-07-23T03:59:33.000Z"},{"message_credit_log_id":9,"parntid":1,"rights_name":"OBD CALL SIP","parntname":"admin","user_type":"User","usrid":2,"usrname":"user_1","provided_message_count":6,"message_comments":"6 Messages allocated to user_1 by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-07-15T23:59:48.000Z"},{"message_credit_log_id":8,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"User","usrid":2,"usrname":"user_1","provided_message_count":1,"message_comments":"1 Messages allocated to user_1 by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-07-15T23:59:06.000Z"},{"message_credit_log_id":7,"parntid":1,"rights_name":"OBD CALL SIP","parntname":"admin","user_type":"User","usrid":2,"usrname":"user_1","provided_message_count":500,"message_comments":"500 Messages allocated to user_1 by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-07-15T23:57:47.000Z"},{"message_credit_log_id":6,"parntid":1,"rights_name":"OBD CALL SIP","parntname":"admin","user_type":"Test","usrid":3,"usrname":"Test_user","provided_message_count":1000,"message_comments":"1000 Messages allocated to Test_user by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-07-03T05:04:02.000Z"},{"message_credit_log_id":5,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":null,"usrid":null,"usrname":null,"provided_message_count":99999,"message_comments":"99999 Messages allocated to testing by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-03-25T01:56:23.000Z"},{"message_credit_log_id":4,"parntid":1,"rights_name":"GSM SMS","parntname":"admin","user_type":null,"usrid":null,"usrname":null,"provided_message_count":500,"message_comments":"500 Messages allocated to testing by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-03-24T23:42:32.000Z"},{"message_credit_log_id":3,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":null,"usrid":null,"usrname":null,"provided_message_count":1000,"message_comments":"1000 Messages allocated to testing by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-03-24T00:01:42.000Z"},{"message_credit_log_id":2,"parntid":1,"rights_name":"GSM SMS","parntname":"admin","user_type":"Test","usrid":3,"usrname":"Test_user","provided_message_count":1000,"message_comments":"1000 Messages allocated to demouser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-03-21T01:28:39.000Z"},{"message_credit_log_id":1,"parntid":1,"rights_name":"WHATSAPP","parntname":"admin","user_type":"Test","usrid":3,"usrname":"Test_user","provided_message_count":1000,"message_comments":"1000 Messages allocated to demouser by admin","message_credit_log_status":"Y","message_credit_log_entdate":"2024-03-21T01:24:49.000Z"}]}] on 2024-11-04 10:24:53
+http://192.168.29.244/messenger_hub/approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin access the page on 2024-11-04 10:24:56
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page : User : admin Preview on 2024-11-04 10:24:57
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  Execute the service [{
+            "user_id" : "1"
+          },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNjk2MDQ1LCJleHAiOjE3MzEzMDA4NDV9.1QjSh_i51WUIvROn2N2ax1apL9gSiBrrrqYeIBU1rUM] on 2024-11-04 10:24:57
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_payment : IP Address : 192.168.29.244 ==> Approve Payment Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":5,"response_msg":"Success","report":[{"usr_credit_id":5,"user_id":2,"parent_id":1,"pricing_slot_id":4,"expiry_date":"2025-10-18T04:08:47.000Z","valdity_period":"12","raise_credits":1000000,"amount":767000,"usr_credit_comments":"Testing","usr_credit_status":"U","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-10-18T04:08:47.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":500000,"price_to":1000000,"price_per_message":"0.65","rights_name":"WHATSAPP"},{"usr_credit_id":4,"user_id":2,"parent_id":1,"pricing_slot_id":12,"expiry_date":"2025-10-15T11:23:55.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:12, paymentID:pay_P9IedkXE7B33mI, userEmail","usr_credit_entry_date":"2024-10-15T11:23:55.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"RCS"},{"usr_credit_id":3,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-10-15T11:19:54.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_P9IMIJNOxU7bm7, userEmail","usr_credit_entry_date":"2024-10-15T11:19:54.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":2,"user_id":2,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-07-24T05:59:51.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"Testing","usr_credit_status":"A","usr_credit_status_cmnts":"Direct Approval. Collect the Money from them, before Credit the Messages","usr_credit_entry_date":"2024-07-24T05:59:51.000Z","user_name":"user_1","parent_name":"admin","user_type":"User","price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"},{"usr_credit_id":1,"user_id":5,"parent_id":1,"pricing_slot_id":2,"expiry_date":"2025-03-24T23:41:57.000Z","valdity_period":"12","raise_credits":99999,"amount":116819,"usr_credit_comments":"testing ","usr_credit_status":"U","usr_credit_status_cmnts":"msg:Payment successfully credited, status:true, productCode:2, paymentID:pay_NqT6QKLr5yZBxF, userEmail","usr_credit_entry_date":"2024-03-24T23:41:57.000Z","user_name":null,"parent_name":"admin","user_type":null,"price_from":1,"price_to":99999,"price_per_message":"0.99","rights_name":"WHATSAPP"}]}] on 2024-11-04 10:24:57
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : User : 'admin' logged out successfully on 2024-11-04 13:18:45
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : All sessions destroyed successfully on 2024-11-04 13:18:46
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-11-04 18:25:26
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "5866327815"
+  }] on 2024-11-04 18:25:26
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success","bearer_token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzMwNzI0OTI2LCJleHAiOjE3MzEzMjk3MjZ9.5h832zBMBPEFHyDtRWRkOA1Kkjz24ci1mBMmR7VSyeo","user_id":1,"user_master_id":1,"parent_id":1,"user_name":"admin","user_status":"Y","request_id":"5866327815"}] on 2024-11-04 18:25:26
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in success on 2024-11-04 18:25:26
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:25:26
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:25:27
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:25:27
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:25:27
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:25:30
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730724987557.csv",
+          "messages":"Hello testing",
+          "variable_count":"0",
+          "request_id":"1_2024308182627_1603"
+          }] on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 18:26:27
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:26:28
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:27:57
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:27:58
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:27:58
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"Hello testing","media_url":"NULL","compose_message_id":292,"campaign_name":"ca_1_309_292","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730724987557.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 18:26:27","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:27:58
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=292&campaign_name=ca_1_309_292&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:28:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=292&campaign_name=ca_1_309_292&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+"request_id":"1_2024308182817_3008",
+   "selected_user_id":"1",
+      "user_id":"1",
+      "compose_whatsapp_id":"292",
+      "sender_numbers" : ["919948475586"]
+    }] on 2024-11-04 18:28:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=292&campaign_name=ca_1_309_292&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success."}] on 2024-11-04 18:28:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=292&campaign_name=ca_1_309_292&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 18:28:17
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:28:19
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:28:19
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:28:19
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:28:19
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:50:10
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:50:10
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730726432766.csv",
+          "messages":"Hello Testing Message welcome",
+          "variable_count":"0",
+          "request_id":"1_2024308185032_5189"
+          }] on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 18:50:32
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:50:33
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:50:38
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:50:38
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:50:38
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"Hello Testing Message welcome","media_url":"NULL","compose_message_id":293,"campaign_name":"ca_1_309_293","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730726432766.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 18:50:32","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:50:38
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=293&campaign_name=ca_1_309_293&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:50:55
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=293&campaign_name=ca_1_309_293&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+"request_id":"1_2024308185055_8437",
+   "selected_user_id":"1",
+      "user_id":"1",
+      "compose_whatsapp_id":"293",
+      "sender_numbers" : ["919948475586"]
+    }] on 2024-11-04 18:50:55
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=293&campaign_name=ca_1_309_293&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success."}] on 2024-11-04 18:50:55
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=293&campaign_name=ca_1_309_293&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 18:50:55
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:50:57
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:50:57
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:50:57
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:50:57
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:57:45
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730726897120.csv",
+          "messages":"hello",
+          "variable_count":"0",
+          "request_id":"1_2024308185817_1133"
+          }] on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 18:58:17
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 18:58:18
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:58:22
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:58:23
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:58:23
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"hello","media_url":"NULL","compose_message_id":294,"campaign_name":"ca_1_309_294","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730726897120.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 18:58:17","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:58:23
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=294&campaign_name=ca_1_309_294&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 18:58:30
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=294&campaign_name=ca_1_309_294&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+"request_id":"1_2024308185830_9464",
+   "selected_user_id":"1",
+      "user_id":"1",
+      "compose_whatsapp_id":"294",
+      "sender_numbers" : ["919948475586"]
+    }] on 2024-11-04 18:58:30
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=294&campaign_name=ca_1_309_294&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success."}] on 2024-11-04 18:58:31
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=294&campaign_name=ca_1_309_294&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 18:58:31
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 18:58:33
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 18:58:33
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 18:58:33
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 18:58:33
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:00:30
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727044249.csv",
+          "messages":"Hello Testing",
+          "variable_count":"0",
+          "request_id":"1_2024308190044_9263"
+          }] on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 19:00:44
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:00:45
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:00:49
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:00:50
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:00:50
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"Hello Testing","media_url":"NULL","compose_message_id":295,"campaign_name":"ca_1_309_295","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727044249.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 19:00:44","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:00:50
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:01:20
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:01:21
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:01:21
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"Hello Testing","media_url":"NULL","compose_message_id":295,"campaign_name":"ca_1_309_295","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727044249.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 19:00:44","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:01:21
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=295&campaign_name=ca_1_309_295&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:01:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=295&campaign_name=ca_1_309_295&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+"request_id":"1_2024308190127_8771",
+   "selected_user_id":"1",
+      "user_id":"1",
+      "compose_whatsapp_id":"295",
+      "sender_numbers" : ["919948475586"]
+    }] on 2024-11-04 19:01:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=295&campaign_name=ca_1_309_295&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success."}] on 2024-11-04 19:01:27
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=295&campaign_name=ca_1_309_295&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 19:01:27
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:01:29
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:01:30
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:01:30
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:01:30
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:02:47
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727180855.csv",
+          "messages":"knskdnskdnskdns",
+          "variable_count":"0",
+          "request_id":"1_2024308190300_2544"
+          }] on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 19:03:00
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:03:02
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:03:06
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:03:07
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:03:07
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"knskdnskdnskdns","media_url":"NULL","compose_message_id":296,"campaign_name":"ca_1_309_296","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727180855.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 19:03:00","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:03:07
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=296&campaign_name=ca_1_309_296&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:03:19
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=296&campaign_name=ca_1_309_296&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+"request_id":"1_2024308190319_5974",
+   "selected_user_id":"1",
+      "user_id":"1",
+      "compose_whatsapp_id":"296",
+      "sender_numbers" : ["919948475586"]
+    }] on 2024-11-04 19:03:19
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=296&campaign_name=ca_1_309_296&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success."}] on 2024-11-04 19:03:19
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=296&campaign_name=ca_1_309_296&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 19:03:19
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:03:21
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:03:21
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:03:21
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:03:21
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:08:19
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727517102.csv",
+          "messages":"Hello Enter the message",
+          "variable_count":"0",
+          "request_id":"1_2024308190837_5271"
+          }] on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 19:08:37
+http://192.168.29.244/messenger_hub/compose : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:08:38
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:08:43
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:08:44
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:08:44
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"Hello Enter the message","media_url":"NULL","compose_message_id":297,"campaign_name":"ca_1_309_297","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1730727517102.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"04-11-2024 19:08:37","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}},{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:08:44
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=297&campaign_name=ca_1_309_297&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-11-04 19:08:51
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=297&campaign_name=ca_1_309_297&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+"request_id":"1_2024308190851_8991",
+   "selected_user_id":"1",
+      "user_id":"1",
+      "compose_whatsapp_id":"297",
+      "sender_numbers" : ["919948475586"]
+    }] on 2024-11-04 19:08:51
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=297&campaign_name=ca_1_309_297&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success."}] on 2024-11-04 19:08:51
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=send_approve_campaign_wastp&compose_message_id=297&campaign_name=ca_1_309_297&mobile_numbers=919948475586&select_user_id=1&product_name%20=WHATSAPP : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-11-04 19:08:51
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-11-04 19:08:53
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-11-04 19:08:54
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-11-04 19:08:54
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","campaign_list":[{"user_name":"admin","user_id":1,"message_type":"TEXT","is_same_media":"-","text_title":"ksmkdsn","media_url":"NULL","compose_message_id":227,"campaign_name":"ca_1_292_227","receiver_nos_path":"/var/www/html/messenger_hub/uploads/group_contact/1_csv_1729257394860.csv","cm_status":"W","total_mobile_no_count":4,"context_id":null,"context":null,"cm_entry_date":"18-10-2024 18:46:34","receiver_mobile_nos":{"type":"Buffer","data":[57,49,56,56,51,56,57,54,52,53,57,55,44,57,49,55,53,51,57,57,57,56,57,49,55,44,57,49,57,51,54,48,49,54,57,49,48,51,44,57,49,56,56,51,56,52,50,52,50,52,55]}}]}] on 2024-11-04 19:08:54
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:10:05
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308191014_1159"
+  }] on 2024-11-04 19:10:14
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308191014_1159","Inactive_senderID":[]}] on 2024-11-04 19:10:14
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:10:16
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308191748_5896"
+  }] on 2024-11-04 19:17:48
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308191748_5896","Inactive_senderID":[]}] on 2024-11-04 19:17:49
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:17:51
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308192029_7221"
+  }] on 2024-11-04 19:20:29
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308192029_7221","Inactive_senderID":[]}] on 2024-11-04 19:20:29
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:20:31
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308192304_8888"
+  }] on 2024-11-04 19:23:04
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308192304_8888","Inactive_senderID":[]}] on 2024-11-04 19:23:04
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:23:06
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308192726_7602"
+  }] on 2024-11-04 19:27:26
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308192726_7602","Inactive_senderID":[]}] on 2024-11-04 19:27:26
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:27:30
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308193608_5414"
+  }] on 2024-11-04 19:36:08
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308193608_5414","Inactive_senderID":[]}] on 2024-11-04 19:36:08
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:36:10
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308193847_8425"
+  }] on 2024-11-04 19:38:47
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308193847_8425","Inactive_senderID":[]}] on 2024-11-04 19:38:47
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:38:49
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308194311_1829"
+  }] on 2024-11-04 19:43:11
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308194311_1829","Inactive_senderID":[]}] on 2024-11-04 19:43:11
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:43:13
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308194439_4077"
+  }] on 2024-11-04 19:44:39
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308194439_4077","Inactive_senderID":[]}] on 2024-11-04 19:44:39
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:44:41
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308194548_2221"
+  }] on 2024-11-04 19:45:48
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308194548_2221","Inactive_senderID":[]}] on 2024-11-04 19:45:48
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:45:50
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308194724_7870"
+  }] on 2024-11-04 19:47:24
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308194724_7870","Inactive_senderID":[]}] on 2024-11-04 19:47:24
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:47:26
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308194831_9398"
+  }] on 2024-11-04 19:48:31
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308194831_9398","Inactive_senderID":[]}] on 2024-11-04 19:48:31
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:48:33
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308195051_8500"
+  }] on 2024-11-04 19:50:51
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308195051_8500","Inactive_senderID":[]}] on 2024-11-04 19:50:51
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:50:53
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308195139_3114"
+  }] on 2024-11-04 19:51:39
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"No Sender ID available","request_id":"1_2024308195139_3114"}] on 2024-11-04 19:51:39
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308195157_7266"
+  }] on 2024-11-04 19:51:57
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308195157_7266","Inactive_senderID":[]}] on 2024-11-04 19:51:57
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 19:51:59
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308200844_3118"
+  }] on 2024-11-04 20:08:44
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308200844_3118","Inactive_senderID":[]}] on 2024-11-04 20:08:44
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:08:46
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308201041_8921"
+  }] on 2024-11-04 20:10:41
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308201041_8921","Inactive_senderID":[]}] on 2024-11-04 20:10:41
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:10:43
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308202006_7856"
+  }] on 2024-11-04 20:20:06
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308202006_7856","Inactive_senderID":[]}] on 2024-11-04 20:20:06
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:20:08
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308202259_9509"
+  }] on 2024-11-04 20:22:59
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308202259_9509","Inactive_senderID":[]}] on 2024-11-04 20:22:59
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:23:01
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308202416_5898"
+  }] on 2024-11-04 20:24:16
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308202416_5898","Inactive_senderID":[]}] on 2024-11-04 20:24:16
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:24:18
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308202610_5388"
+  }] on 2024-11-04 20:26:10
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"No Sender ID available","request_id":"1_2024308202610_5388"}] on 2024-11-04 20:26:10
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308202647_7505"
+  }] on 2024-11-04 20:26:47
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308202647_7505","Inactive_senderID":[]}] on 2024-11-04 20:26:47
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:26:49
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308202830_7883"
+  }] on 2024-11-04 20:28:30
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308202830_7883","Inactive_senderID":[]}] on 2024-11-04 20:28:30
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:28:32
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308203137_7637"
+  }] on 2024-11-04 20:31:37
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308203137_7637","Inactive_senderID":[]}] on 2024-11-04 20:31:37
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:31:39
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308203905_3076"
+  }] on 2024-11-04 20:39:05
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308203905_3076","Inactive_senderID":[]}] on 2024-11-04 20:39:05
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:39:07
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308204107_9104"
+  }] on 2024-11-04 20:41:07
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308204107_9104","Inactive_senderID":[]}] on 2024-11-04 20:41:08
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:41:10
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308204556_6905"
+  }] on 2024-11-04 20:45:56
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308204556_6905","Inactive_senderID":[]}] on 2024-11-04 20:45:56
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:45:58
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308204736_6051"
+  }] on 2024-11-04 20:47:36
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308204736_6051","Inactive_senderID":[]}] on 2024-11-04 20:47:36
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:47:39
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308204807_4893"
+  }] on 2024-11-04 20:48:07
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"No Sender ID available","request_id":"1_2024308204807_4893"}] on 2024-11-04 20:48:07
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308204829_9265"
+  }] on 2024-11-04 20:48:29
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308204829_9265","Inactive_senderID":[]}] on 2024-11-04 20:48:29
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:48:31
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308205020_9233"
+  }] on 2024-11-04 20:50:20
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308205020_9233","Inactive_senderID":[]}] on 2024-11-04 20:50:20
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:50:22
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin Execute the service [{
+ "selected_user_id":"1",
+    "compose_whatsapp_id":"297",
+"request_id":"1_2024308205207_1502"
+  }] on 2024-11-04 20:52:07
+http://192.168.29.244/messenger_hub/ajax/report.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Delete Sender ID Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","request_id":"1_2024308205207_1502","Inactive_senderID":[]}] on 2024-11-04 20:52:07
+http://192.168.29.244/messenger_hub/report_generation : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-11-04 20:52:09
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : User : 'admin' logged out successfully on 2024-11-04 20:52:47
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : All sessions destroyed successfully on 2024-11-04 20:52:47
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 

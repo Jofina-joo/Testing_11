@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "310818678632",
+    "project_id": "watsp-app",
+    "storage_bucket": "watsp-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310818678632:android:367372e8ae4daa349dd8dd",
+        "android_client_info": {
+          "package_name": "com.example.background_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310818678632-24msddgvdg22d1b23gc5gldhrk0iao9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCri3_-TTZCSQMe8MtQRzHxvj1NEy0TyPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310818678632-24msddgvdg22d1b23gc5gldhrk0iao9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
