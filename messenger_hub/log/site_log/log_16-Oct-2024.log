@@ -1,0 +1,237 @@
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-16 10:06:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "Yjt@123#",
+    "request_id" : "1378480071"
+  }] on 2024-10-16 10:06:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"Invalid Password. Kindly try again with the valid details!","request_id":"1378480071"}] on 2024-10-16 10:06:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in failed [Sign in Failed] on 2024-10-16 10:06:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-16 10:06:27
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "9199302193"
+  }] on 2024-10-16 10:06:27
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success","bearer_token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI5MDUzMzg3LCJleHAiOjE3Mjk2NTgxODd9.GiyeBLE5X3TRNuqcpudXgaaJnG39JybXq---semW1ys","user_id":1,"user_master_id":1,"parent_id":1,"user_name":"admin","user_status":"Y","request_id":"9199302193"}] on 2024-10-16 10:06:27
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in success on 2024-10-16 10:06:27
+http://192.168.29.244/messenger_hub/dashboard : IP Address : 192.168.29.244 ==> Dashboard Page : User : admin access the page on 2024-10-16 10:06:27
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=dashboard_count : IP Address : 192.168.29.244 ==> Dashboard Page : User : admin access this page on 2024-10-16 10:06:28
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=dashboard_count : IP Address : 192.168.29.244 ==> Dashboard Page : admin Execute the service [{
+    "user_id" : "1"
+  },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI5MDUzMzg3LCJleHAiOjE3Mjk2NTgxODd9.GiyeBLE5X3TRNuqcpudXgaaJnG39JybXq---semW1ys] on 2024-10-16 10:06:28
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=dashboard_count : IP Address : 192.168.29.244 ==> Dashboard Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","report":[[{"user_id":1,"rights_name":"WHATSAPP","user_name":"admin","available_credits":4881918,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":1,"rights_name":"GSM SMS","user_name":"admin","available_credits":1331,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":1,"rights_name":"RCS","user_name":"admin","available_credits":1214,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":1,"rights_name":"OBD CALL SIP","user_name":"admin","available_credits":2617102,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"WHATSAPP","user_name":"user_1","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"GSM SMS","user_name":"user_1","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"RCS","user_name":"user_1","available_credits":174,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"OBD CALL SIP","user_name":"user_1","available_credits":480,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"WHATSAPP","user_name":"visit","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"GSM SMS","user_name":"visit","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"RCS","user_name":"visit","available_credits":3,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"OBD CALL SIP","user_name":"visit","available_credits":494,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":9,"rights_name":"WHATSAPP","user_name":"joselinselina","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":9,"rights_name":"GSM SMS","user_name":"joselinselina","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":9,"rights_name":"RCS","user_name":"joselinselina","available_credits":0,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":9,"rights_name":"OBD CALL SIP","user_name":"joselinselina","available_credits":0,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":10,"rights_name":"WHATSAPP","user_name":"joselinselina","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":10,"rights_name":"GSM SMS","user_name":"joselinselina","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":10,"rights_name":"RCS","user_name":"joselinselina","available_credits":0,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":10,"rights_name":"OBD CALL SIP","user_name":"joselinselina","available_credits":0,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":11,"rights_name":"WHATSAPP","user_name":"demo1","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":11,"rights_name":"GSM SMS","user_name":"demo1","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":11,"rights_name":"RCS","user_name":"demo1","available_credits":0,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":11,"rights_name":"OBD CALL SIP","user_name":"demo1","available_credits":0,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"WHATSAPP","user_name":"Test_user","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"GSM SMS","user_name":"Test_user","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"RCS","user_name":"Test_user","available_credits":421,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"OBD CALL SIP","user_name":"Test_user","available_credits":161,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"WHATSAPP","user_name":"demo","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"GSM SMS","user_name":"demo","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"RCS","user_name":"demo","available_credits":35,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"OBD CALL SIP","user_name":"demo","available_credits":440,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"WHATSAPP","user_name":"anaya","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"GSM SMS","user_name":"anaya","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"RCS","user_name":"anaya","available_credits":125843,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"OBD CALL SIP","user_name":"anaya","available_credits":818126,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}]]}] on 2024-10-16 10:06:28
+http://192.168.29.244/messenger_hub/contacts : IP Address : 192.168.29.244 ==> Contacts Page : User : admin access the page on 2024-10-16 10:07:29
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin validated Mobile Nos (||,) on 2024-10-16 10:07:32
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=generate_contacts&txt_list_mobno=918838964597 : IP Address : 192.168.29.244 ==> Add Contacts in Group Generate Contacts Page : admin Execute the service [Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI5MDUzMzg3LCJleHAiOjE3Mjk2NTgxODd9.GiyeBLE5X3TRNuqcpudXgaaJnG39JybXq---semW1ys.{
+    "mobile_number":["918838964597"],
+    "request_id":"1_2024289100740_2005"
+  }] on 2024-10-16 10:07:40
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=generate_contacts&txt_list_mobno=918838964597 : IP Address : 192.168.29.244 ==> Add Contacts in Group Generate Contacts Page : admin get the Service response [<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /wtsp/create_csv</pre>
+</body>
+</html>
+] on 2024-10-16 10:07:40
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/js/dist/xlsx.core.min.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=generate_contacts&txt_list_mobno=918838964597 : IP Address : 192.168.29.244 ==> Add Contacts in Group Generate Contacts Page : admin Execute the service [Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI5MDUzMzg3LCJleHAiOjE3Mjk2NTgxODd9.GiyeBLE5X3TRNuqcpudXgaaJnG39JybXq---semW1ys.{
+    "mobile_number":["918838964597"],
+    "request_id":"1_2024289100823_1964"
+  }] on 2024-10-16 10:08:23
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=generate_contacts&txt_list_mobno=918838964597 : IP Address : 192.168.29.244 ==> Add Contacts in Group Generate Contacts Page : admin get the Service response [<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /wtsp/create_csv</pre>
+</body>
+</html>
+] on 2024-10-16 10:08:23
+http://192.168.29.244/messenger_hub/ : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : User : 'admin' logged out successfully on 2024-10-16 10:13:18
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : All sessions destroyed successfully on 2024-10-16 10:13:18
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user trying to create a new account in our site on 2024-10-16 10:24:03
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "new_user",
+    "user_email" : "newuser@gmail.com",
+    "user_mobile" : "8923784723",
+    "login_password" : "Digital1234$",
+    "login_id" : "new_user"
+  }] on 2024-10-16 10:24:03
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":0,"response_status":201,"response_msg":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALTER TABLE messenger_hub_12.obd_cdrs_12 \r\nADD credit CHAR(1) NULL DEFAULT N AFT' at line 33"}] on 2024-10-16 10:24:03
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user account creation Failed [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALTER TABLE messenger_hub_12.obd_cdrs_12 
+ADD credit CHAR(1) NULL DEFAULT N AFT' at line 33] on 2024-10-16 10:24:03
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user trying to create a new account in our site on 2024-10-16 10:24:46
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "new_user",
+    "user_email" : "newuser@gmail.com",
+    "user_mobile" : "8923784723",
+    "login_password" : "Digital1234$",
+    "login_id" : "new_user"
+  }] on 2024-10-16 10:24:46
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":0,"response_status":201,"response_msg":"Login ID or Email already in use. Please choose different credentials."}] on 2024-10-16 10:24:46
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user account creation Failed [Login ID or Email already in use. Please choose different credentials.] on 2024-10-16 10:24:46
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user_1 trying to create a new account in our site on 2024-10-16 10:24:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "new_user_1",
+    "user_email" : "newuser_1@gmail.com",
+    "user_mobile" : "8923784723",
+    "login_password" : "Digital1234$",
+    "login_id" : "new_user_1"
+  }] on 2024-10-16 10:24:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":0,"response_status":201,"response_msg":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALTER TABLE messenger_hub_13.obd_cdrs_13 \r\nADD credit CHAR(1) NULL DEFAULT `N` A' at line 33"}] on 2024-10-16 10:24:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user_1 account creation Failed [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALTER TABLE messenger_hub_13.obd_cdrs_13 
+ADD credit CHAR(1) NULL DEFAULT `N` A' at line 33] on 2024-10-16 10:24:59
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user_2 trying to create a new account in our site on 2024-10-16 10:26:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "new_user_2",
+    "user_email" : "newuser_2@gmail.com",
+    "user_mobile" : "8923784723",
+    "login_password" : "Digital1234$",
+    "login_id" : "new_user_2"
+  }] on 2024-10-16 10:26:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":0,"response_status":201,"response_msg":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALTER TABLE messenger_hub_14.obd_cdrs_14 \r\nADD credit CHAR(1) NULL DEFAULT \"N\" A' at line 33"}] on 2024-10-16 10:26:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user_2 account creation Failed [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALTER TABLE messenger_hub_14.obd_cdrs_14 
+ADD credit CHAR(1) NULL DEFAULT "N" A' at line 33] on 2024-10-16 10:26:19
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user_3 trying to create a new account in our site on 2024-10-16 10:28:09
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "new_user_3",
+    "user_email" : "newuser_3@gmail.com",
+    "user_mobile" : "8923784723",
+    "login_password" : "Digital1234$",
+    "login_id" : "new_user_3"
+  }] on 2024-10-16 10:28:09
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success"}] on 2024-10-16 10:28:09
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : new_user_3 account created successfully on 2024-10-16 10:28:09
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : user_1 trying to create a new account in our site on 2024-10-16 10:42:31
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "user_1",
+    "user_email" : "user_1@gmail.com",
+    "user_mobile" : "8983905890",
+    "login_password" : "YJt@123#",
+    "login_id" : "user_1"
+  }] on 2024-10-16 10:42:31
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":0,"response_status":201,"response_msg":"Login ID or Email already in use. Please choose different credentials."}] on 2024-10-16 10:42:31
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : user_1 account creation Failed [Login ID or Email already in use. Please choose different credentials.] on 2024-10-16 10:42:31
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : user_11 trying to create a new account in our site on 2024-10-16 10:42:47
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "user_11",
+    "user_email" : "user_11@gmail.com",
+    "user_mobile" : "8983905890",
+    "login_password" : "YJt@123#",
+    "login_id" : "user_11"
+  }] on 2024-10-16 10:42:47
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success"}] on 2024-10-16 10:42:47
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : user_11 account created successfully on 2024-10-16 10:42:47
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => primary_admin trying to login on 2024-10-16 12:18:54
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : primary_admin Execute the service [{
+    "txt_username" : "primary_admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "6077406062"
+  }] on 2024-10-16 12:18:54
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : primary_admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"Invalid User. Kindly try again with the valid User!","request_id":"6077406062"}] on 2024-10-16 12:18:54
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : primary_admin logged in failed [Sign in Failed] on 2024-10-16 12:18:54
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-16 12:19:02
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "4179204841"
+  }] on 2024-10-16 12:19:02
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"Invalid User. Kindly try again with the valid User!","request_id":"4179204841"}] on 2024-10-16 12:19:02
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in failed [Sign in Failed] on 2024-10-16 12:19:02
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-16 12:19:13
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "1307378498"
+  }] on 2024-10-16 12:19:13
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":0,"response_status":201,"response_msg":"Invalid User. Kindly try again with the valid User!","request_id":"1307378498"}] on 2024-10-16 12:19:13
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in failed [Sign in Failed] on 2024-10-16 12:19:13
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-16 12:21:41
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "4214006121"
+  }] on 2024-10-16 12:21:41
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success","bearer_token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI5MDYxNTAxLCJleHAiOjE3Mjk2NjYzMDF9.TXFPOQnVsMbkIBjO0OOnBSBBdvs9xdur_K7Vo3DCO3I","user_id":1,"user_master_id":1,"parent_id":1,"user_name":"admin","user_status":"Y","request_id":"4214006121"}] on 2024-10-16 12:21:41
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in success on 2024-10-16 12:21:41
+http://192.168.29.244/messenger_hub/dashboard : IP Address : 192.168.29.244 ==> Dashboard Page : User : admin access the page on 2024-10-16 12:21:41
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/summernote/summernote-bs4.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=dashboard_count : IP Address : 192.168.29.244 ==> Dashboard Page : User : admin access this page on 2024-10-16 12:21:42
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=dashboard_count : IP Address : 192.168.29.244 ==> Dashboard Page : admin Execute the service [{
+    "user_id" : "1"
+  },Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI5MDYxNTAxLCJleHAiOjE3Mjk2NjYzMDF9.TXFPOQnVsMbkIBjO0OOnBSBBdvs9xdur_K7Vo3DCO3I] on 2024-10-16 12:21:42
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=dashboard_count : IP Address : 192.168.29.244 ==> Dashboard Page : admin get the Service response [{"response_code":1,"response_status":200,"response_msg":"Success","report":[[{"user_id":1,"rights_name":"WHATSAPP","user_name":"admin","available_credits":4881918,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":1,"rights_name":"GSM SMS","user_name":"admin","available_credits":1331,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":1,"rights_name":"RCS","user_name":"admin","available_credits":1214,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":1,"rights_name":"OBD CALL SIP","user_name":"admin","available_credits":2617102,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"WHATSAPP","user_name":"user_1","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"GSM SMS","user_name":"user_1","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"RCS","user_name":"user_1","available_credits":174,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":2,"rights_name":"OBD CALL SIP","user_name":"user_1","available_credits":480,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"WHATSAPP","user_name":"visit","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"GSM SMS","user_name":"visit","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"RCS","user_name":"visit","available_credits":3,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":7,"rights_name":"OBD CALL SIP","user_name":"visit","available_credits":494,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"WHATSAPP","user_name":"Test_user","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"GSM SMS","user_name":"Test_user","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"RCS","user_name":"Test_user","available_credits":421,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":3,"rights_name":"OBD CALL SIP","user_name":"Test_user","available_credits":161,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"WHATSAPP","user_name":"demo","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"GSM SMS","user_name":"demo","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"RCS","user_name":"demo","available_credits":35,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":6,"rights_name":"OBD CALL SIP","user_name":"demo","available_credits":440,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"WHATSAPP","user_name":"anaya","available_credits":1000,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"GSM SMS","user_name":"anaya","available_credits":300,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"RCS","user_name":"anaya","available_credits":125843,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}],[{"user_id":8,"rights_name":"OBD CALL SIP","user_name":"anaya","available_credits":818126,"total_msg":0,"total_success":0,"total_failed":0,"total_invalid":0,"total_waiting":0,"total_process":0}]]}] on 2024-10-16 12:21:42
+http://192.168.29.244/messenger_hub/app_details_list : IP Address : 192.168.29.244 ==> Manage Sender ID List Page : User : admin access the page on 2024-10-16 12:21:44
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/js/pdfmake.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=app_details_list : IP Address : 192.168.29.244 ==> app_details_list List Page : User : admin Preview on 2024-10-16 12:21:46
+http://192.168.29.244/messenger_hub/pdfmake.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?tmpl_call_function=app_senderid_list&app_update_id=16 : IP Address : 192.168.29.244 ==> app_senderid_list List Page : User : admin Preview on 2024-10-16 12:22:06
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=app_update_version&mobile_numbers=%0D%0A%20%20%20%20%20%20919951779413&app_version_file=https://yourpostman.in/mobile_marketing/uploads/app_versions/mobile_marketing_V3.4_3.4_20240410151126.apk&app_update_id=16 : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-10-16 12:22:38
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=app_update_version&mobile_numbers=%0D%0A%20%20%20%20%20%20919951779413&app_version_file=https://yourpostman.in/mobile_marketing/uploads/app_versions/mobile_marketing_V3.4_3.4_20240410151126.apk&app_update_id=16 : IP Address : 192.168.29.244 ==> app_update Page : User : admin api request [{
+"request_id":"1_2024289122238_5589",
+"app_update_id" :  "16",
+ "sender_numbers" : ["
+      919951779413"]
+    }, APIURL - http://localhost:10023/app_update/update_version] on 2024-10-16 12:22:38
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php?tmpl_call_function=app_update_version&mobile_numbers=%0D%0A%20%20%20%20%20%20919951779413&app_version_file=https://yourpostman.in/mobile_marketing/uploads/app_versions/mobile_marketing_V3.4_3.4_20240410151126.apk&app_update_id=16 : IP Address : 192.168.29.244 ==> app_update Page : User : admin api response [<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token  in JSON at position 86<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (/home/yeejai-server-6/api_functions/messenger_hub_service/node_modules/body-parser/lib/types/json.js:89:19)<br> &nbsp; &nbsp;at /home/yeejai-server-6/api_functions/messenger_hub_service/node_modules/body-parser/lib/read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:203:9)<br> &nbsp; &nbsp;at invokeCallback (/home/yeejai-server-6/api_functions/messenger_hub_service/node_modules/raw-body/index.js:231:16)<br> &nbsp; &nbsp;at done (/home/yeejai-server-6/api_functions/messenger_hub_service/node_modules/raw-body/index.js:220:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (/home/yeejai-server-6/api_functions/messenger_hub_service/node_modules/raw-body/index.js:280:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:517:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1400:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+] on 2024-10-16 12:22:38
+http://192.168.29.244/messenger_hub/app_details_list : IP Address : 192.168.29.244 ==> Manage Sender ID List Page : User : admin access the page on 2024-10-16 12:24:42
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/js/pdfmake.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=app_details_list : IP Address : 192.168.29.244 ==> app_details_list List Page : User : admin Preview on 2024-10-16 12:24:44
+http://192.168.29.244/messenger_hub/pdfmake.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : User : 'admin' logged out successfully on 2024-10-16 12:25:28
+http://192.168.29.244/messenger_hub/logout : IP Address : 192.168.29.244 ==> Logout Page : All sessions destroyed successfully on 2024-10-16 12:25:28
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 

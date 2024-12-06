@@ -1,0 +1,61 @@
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-10 09:44:51
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "2911011652"
+  }] on 2024-10-10 09:44:51
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success","bearer_token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI4NTMzNjkxLCJleHAiOjE3MjkxMzg0OTF9.q0bTciYJ_ZvA-2Z5tAfP0FbBvQ78iKSe7P6bUYKEb9U","user_id":1,"user_master_id":1,"parent_id":1,"user_name":"admin","user_status":"Y","request_id":"2911011652"}] on 2024-10-10 09:44:51
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in success on 2024-10-10 09:44:51
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-10-10 09:44:52
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-10-10 09:44:53
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-10-10 09:44:53
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":0,"response_status":204,"response_msg":"No data available."}] on 2024-10-10 09:44:53
+http://192.168.29.244/messenger_hub/contacts : IP Address : 192.168.29.244 ==> Contacts Page : User : admin access the page on 2024-10-10 09:45:41
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin validated Mobile Nos (||,) on 2024-10-10 09:45:44
+http://192.168.29.244/messenger_hub/compose_sms : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-10-10 09:45:46
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/compose_sms : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-10-10 10:39:30
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : Username => admin trying to login on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin Execute the service [{
+    "txt_username" : "admin",
+    "txt_password" : "YJt@123#",
+    "request_id" : "2397269096"
+  }] on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin get the Service response [{"response_code":1,"response_status":200,"num_of_rows":1,"response_msg":"Success","bearer_token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl9wYXNzd29yZCI6IllKdEAxMjMjIiwiaWF0IjoxNzI4NTUzNTg5LCJleHAiOjE3MjkxNTgzODl9.5J1-Ni635x_kydHypLDyIje9NED24Kgwzzntc_E1_gE","user_id":1,"user_master_id":1,"parent_id":1,"user_name":"admin","user_status":"Y","request_id":"2397269096"}] on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/ajax/call_functions.php : IP Address : 192.168.29.244 ==> Index Page : admin logged in success on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/approve_campaign_whatsapp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin access the page on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Approve Campaign List Page : User : admin Preview on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin Execute the service [{
+        "user_id":"1",
+        "user_product" : "WHATSAPP"
+      }] on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/ajax/display_functions.php?call_function=approve_campaign_list_watsp : IP Address : 192.168.29.244 ==> Manage Whatsappno List Page : admin get the Service response [{"response_code":0,"response_status":204,"response_msg":"No data available."}] on 2024-10-10 15:16:29
+http://192.168.29.244/messenger_hub/compose_sms : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-10-10 15:16:36
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access this page on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV File Uploading on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin CSV Uploaded on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api request [{
+          "message_type":"TEXT",
+          "is_same_msg":true,
+          "receiver_nos_path" : "/var/www/html/messenger_hub/uploads/group_contact/1_csv_1728553634205.csv",
+          "messages":"Hello",
+          "variable_count":"0",
+          "request_id":"1_2024283151714_1155"
+          }] on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin api response [{"response_code":1,"response_status":200,"response_msg":"Success.","invalid_count":1}] on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/ajax/message_call_functions.php : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin [Success] on 2024-10-10 15:17:14
+http://192.168.29.244/messenger_hub/compose_sms : IP Address : 192.168.29.244 ==> Add Contacts in Group Page : User : admin access the page on 2024-10-10 15:17:16
+http://192.168.29.244/messenger_hub/assets/modules/popper.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/assets/modules/tooltip.min.js.map : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/index : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 

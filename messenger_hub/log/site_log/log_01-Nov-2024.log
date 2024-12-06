@@ -1,0 +1,11 @@
+http://192.168.29.244/messenger_hub/ : IP Address : 192.168.29.244 ==> Index Page : Unknown User : '' access this page on 
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : 21 trying to create a new account in our site on 2024-11-01 10:38:42
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  Execute the service [{
+    "user_name" : "anu",
+    "user_email" : "2@gmail.com",
+    "user_mobile" : "9087654321",
+    "login_password" : "Digital1234$",
+    "login_id" : "21"
+  }] on 2024-11-01 10:38:42
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page :  get the Service response [{"response_code":0,"response_status":201,"response_msg":"Duplicate column name 'credit'"}] on 2024-11-01 10:38:42
+http://192.168.29.244/messenger_hub/ajax/call_functions.php?call_function=onboarding_signup : IP Address : 192.168.29.244 ==> Manage Users Page : anu account creation Failed [Duplicate column name 'credit'] on 2024-11-01 10:38:42
